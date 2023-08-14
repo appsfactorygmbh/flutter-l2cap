@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - l2cap_ble (0.0.1):
+    - Flutter
+  - Protobuf (3.23.1)
+  - reactive_ble_mobile (0.0.1):
+    - Flutter
+    - Protobuf (~> 3.5)
+    - SwiftProtobuf (~> 1.0)
+  - SwiftProtobuf (1.21.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - l2cap_ble (from `.symlinks/plugins/l2cap_ble/ios`)
+  - reactive_ble_mobile (from `.symlinks/plugins/reactive_ble_mobile/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  l2cap_ble:
+    :path: ".symlinks/plugins/l2cap_ble/ios"
+  reactive_ble_mobile:
+    :path: ".symlinks/plugins/reactive_ble_mobile/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  l2cap_ble: 32fb0e7e9525c4d3ae16ef633f0b4a5164b95422
+  Protobuf: 3dd214698ddb7afd832da281c777b2e9facef401
+  reactive_ble_mobile: 9ce6723d37ccf701dbffd202d487f23f5de03b4c
+  SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.11.3

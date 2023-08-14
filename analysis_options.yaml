@@ -1,0 +1,72 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - dart_code_metrics
+  errors:
+    todo: warning
+    avoid_print: ignore
+    avoid_function_literals_in_foreach_calls: ignore
+    invalid_annotation_target: ignore
+
+  exclude:
+    - "**/*.gr.dart"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gen.dart"
+    - "**/__brick__/**"
+    - "build/**"
+    - "prototype/**"
+linter:
+  rules:
+    - prefer_single_quotes
+    - unawaited_futures
+
+dart_code_metrics:
+  anti-patterns:
+    - long-method:
+        exclude:
+          - test/**
+          - integration_test/**
+    - long-parameter-list:
+        exclude:
+          - test/**
+          - integration_test/**
+  metrics:
+    cyclomatic-complexity: 20
+    maximum-nesting-level: 5
+    number-of-parameters: 5
+    source-lines-of-code: 100
+  metrics-exclude:
+    - "**/*.gr.dart"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+  rules-exclude:
+    - "**.gen.dart"
+    - "**/app_localizations.dart"
+    - "**/app_localizations_*.dart"
+    - "**/*.freezed.dart"
+
+  rules:
+    # Complete list of rules: https://dartcodemetrics.dev/docs/rules
+    - no-boolean-literal-compare
+    - missing-test-assertion
+    - prefer-commenting-analyzer-ignores
+    - prefer-trailing-comma
+    - prefer-correct-identifier-length:
+        min-identifier-length: 3
+        exceptions: ["i", "x", "y", "id"]
+    - member-ordering:
+        order:
+          - public-fields
+          - private-fields
+          - constructors
+          - close-method
+          - dispose-method
+        widgets-order:
+          - constructor
+          - init-state-method
+          - build-method
+          - did-change-dependencies-method
+          - did-update-widget-method
+          - dispose-method
