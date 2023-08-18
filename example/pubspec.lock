@@ -142,7 +142,7 @@ packages:
   l2cap_ble:
     dependency: "direct main"
     description:
-      path: "packages/l2cap_ble"
+      path: "../l2cap_ble"
       relative: true
     source: path
     version: "0.0.1"

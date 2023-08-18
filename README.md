@@ -61,8 +61,8 @@ Disconnect using disconnectFromDevice. The L2CAP channel closes automatically.
 ble.disconnectFromDevice(deviceId);
 ````
 
-## Examples
-Explore the lib directory for a complete usage scenario, demonstrating L2CAP communication.
+## Example
+Explore the example directory for a complete usage scenario, demonstrating L2CAP communication.
 
 ## Contributing
 Contributions are welcome! If you encounter issues, have feature suggestions, or want to improve the package, feel free to open an issue or submit a pull request. Please read our Contribution Guidelines for more information.
