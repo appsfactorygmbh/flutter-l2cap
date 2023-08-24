@@ -1,5 +1,5 @@
 name: l2cap_ble
-description: A new Flutter plugin project.
+description: A flutter plugin to communicate with Bluetooth Low Energy devices using the L2CAP protocol.
 repository: https://github.com/appsfactorygmbh/flutter-l2cap
 version: 0.0.1
 homepage: https://appsfactory.de
