@@ -1,7 +1,7 @@
 # L2CAP Flutter Package
 
 [![Pub Version](https://img.shields.io/pub/v/l2cap_ble.svg)](https://pub.dev/packages/l2cap_ble)
-[![GitHub License](https://img.shields.io/github/license/your-username/l2cap-flutter-package)](https://github.com/appsfactorygmbh/flutter-l2cap/blob/main/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/your-username/l2cap-flutter-package)](https://github.com/your-username/l2cap-flutter-package/blob/main/LICENSE)
 
 Effortlessly integrate L2CAP communication into your Flutter apps with the L2CAP Flutter package. Streamline Bluetooth device communication with a simplified and intuitive interface.
 
