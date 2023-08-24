@@ -3,6 +3,9 @@ description: A new Flutter plugin project.
 repository: https://github.com/appsfactorygmbh/flutter-l2cap
 version: 0.0.1
 homepage: https://appsfactory.de
+repository: https://github.com/appsfactorygmbh/flutter-l2cap
+topics:
+  - bluetooth
 
 environment:
   sdk: '>=3.0.5 <4.0.0'
